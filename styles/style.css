@@ -1,23 +1,23 @@
 html {
     font-size: 20px;
-    background-color: #f4effc; /* Fondo suave */
+    background-color: #f4effc;
     font-family: 'Arial', sans-serif;
 }
 
 .uno {
-    border: 3px solid #67568c; /* Borde con el color terciario */
-    border-radius: 25px; /* Bordes redondeados más suaves */
-    background: #e2daeb; /* Fondo suave */
+    border: 3px solid #67568c;
+    border-radius: 25px;
+    background: #e2daeb;
     font-size: 25px;
-    padding: 20px; /* Agregar relleno dentro de la caja */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 20px;
 }
 
 .dos {
     border: 3px solid #67568c;
     border-radius: 25px;
-    background-color: #fbdd74; /* Fondo cálido */
+    background-color: #fbdd74;
     font-size: 25px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -28,9 +28,9 @@ h1 {
     font-family: 'Arial', sans-serif;
     font-size: 50px;
     text-align: center;
-    color: #1f1235; /* Color oscuro para el encabezado */
+    color: #1f1235;
     margin: 40px 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave en el título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
@@ -39,22 +39,22 @@ h2 {
     text-align: left;
     color: #1b1425;
     margin-bottom: 15px;
-    text-transform: uppercase; /* Letras en mayúsculas */
-    letter-spacing: 1px; /* Espaciado entre letras */
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 p {
     font-size: 20px;
     font-family: 'Arial', sans-serif;
     color: #1b1325;
-    line-height: 1.6; /* Mejorar la legibilidad del texto */
+    line-height: 1.6;
     margin: 10px 0;
 }
 
 mark {
-    background-color: #ff6e6c; /* Resaltar con color suave */
+    background-color: #ff6e6c;
     padding: 0 5px;
-    border-radius: 5px; /* Bordes redondeados */
+    border-radius: 5px;
 }
 
 ul {
@@ -76,6 +76,14 @@ a {
 }
 
 a:hover {
-    color: #ff6e6c; /* Cambio de color en hover para enlaces */
+    color: #ff6e6c;
     text-decoration: underline;
+}
+
+.link{
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #1b1425;
+    margin-bottom: 10px;
 }
